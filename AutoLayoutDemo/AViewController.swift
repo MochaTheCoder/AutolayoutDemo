@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  AViewController.swift
 //  AutoLayoutDemo
 //
 //  Created by Jonathan on 10/20/18.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class AViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

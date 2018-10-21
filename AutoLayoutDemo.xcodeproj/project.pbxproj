@@ -9,8 +9,10 @@
 /* Begin PBXBuildFile section */
 		ABEF889B217BE6FD00D773CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEF889A217BE6FD00D773CE /* AppDelegate.swift */; };
 		ABEF88A2217BE6FF00D773CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABEF88A1217BE6FF00D773CE /* Assets.xcassets */; };
-		ABEF88AE217BE84F00D773CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEF88AC217BE84F00D773CE /* ViewController.swift */; };
-		ABEF88AF217BE84F00D773CE /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABEF88AD217BE84F00D773CE /* ViewController.xib */; };
+		ABEF88AE217BE84F00D773CE /* AViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEF88AC217BE84F00D773CE /* AViewController.swift */; };
+		ABEF88AF217BE84F00D773CE /* AViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABEF88AD217BE84F00D773CE /* AViewController.xib */; };
+		ABEF88B2217C01AC00D773CE /* BViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEF88B0217C01AC00D773CE /* BViewController.swift */; };
+		ABEF88B3217C01AC00D773CE /* BViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABEF88B1217C01AC00D773CE /* BViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,8 +20,10 @@
 		ABEF889A217BE6FD00D773CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABEF88A1217BE6FF00D773CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABEF88A6217BE6FF00D773CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ABEF88AC217BE84F00D773CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		ABEF88AD217BE84F00D773CE /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		ABEF88AC217BE84F00D773CE /* AViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AViewController.swift; sourceTree = "<group>"; };
+		ABEF88AD217BE84F00D773CE /* AViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AViewController.xib; sourceTree = "<group>"; };
+		ABEF88B0217C01AC00D773CE /* BViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BViewController.swift; sourceTree = "<group>"; };
+		ABEF88B1217C01AC00D773CE /* BViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +59,10 @@
 				ABEF889A217BE6FD00D773CE /* AppDelegate.swift */,
 				ABEF88A1217BE6FF00D773CE /* Assets.xcassets */,
 				ABEF88A6217BE6FF00D773CE /* Info.plist */,
-				ABEF88AC217BE84F00D773CE /* ViewController.swift */,
-				ABEF88AD217BE84F00D773CE /* ViewController.xib */,
+				ABEF88AC217BE84F00D773CE /* AViewController.swift */,
+				ABEF88AD217BE84F00D773CE /* AViewController.xib */,
+				ABEF88B0217C01AC00D773CE /* BViewController.swift */,
+				ABEF88B1217C01AC00D773CE /* BViewController.xib */,
 			);
 			path = AutoLayoutDemo;
 			sourceTree = "<group>";
@@ -119,7 +125,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABEF88AF217BE84F00D773CE /* ViewController.xib in Resources */,
+				ABEF88B3217C01AC00D773CE /* BViewController.xib in Resources */,
+				ABEF88AF217BE84F00D773CE /* AViewController.xib in Resources */,
 				ABEF88A2217BE6FF00D773CE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -131,7 +138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABEF88AE217BE84F00D773CE /* ViewController.swift in Sources */,
+				ABEF88AE217BE84F00D773CE /* AViewController.swift in Sources */,
+				ABEF88B2217C01AC00D773CE /* BViewController.swift in Sources */,
 				ABEF889B217BE6FD00D773CE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -15,9 +15,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        let vc = ViewController()
+
+        let tabBar = UITabBarController()
+        let AVc = AViewController()
+        let BVc = BViewController()
+        AVc.title = "Bottom label"
+        BVc.title = "Equal width views"
+        tabBar.addChild(AVc)
+        tabBar.addChild(BVc)
         window = UIWindow(frame: UIScreen.main.bounds)
-        window?.rootViewController = vc
+        window?.rootViewController = tabBar
         window?.makeKeyAndVisible()
         return true
     }
